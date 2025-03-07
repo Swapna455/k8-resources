@@ -1,0 +1,10 @@
+kind: service
+apiversion: v1
+metadata:
+   name: nginx
+spec:
+  selector:
+  ports:
+  - protocols: TCP
+    port: 80 #service port
+    targetport: 80
