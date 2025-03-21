@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: swapna636/deployment:2.0
+        image: swapna636/deployment:1.0
         ports:
         - containerPort: 80
 ---
